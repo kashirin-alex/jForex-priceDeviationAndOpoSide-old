@@ -54,8 +54,8 @@ import java.util.Set;
 public class jForex {
 
     private static String jnlpUrl = "https://www.dukascopy.com/client/demo/jclient/jforex.jnlp";
-    private static String userName = "DEMODUKEHcST";
-    private static String password = "EHcST";
+    private static String userName = "DUKASCOPY_account";
+    private static String password = "DUKASCOPY_password";
 
     //static String[] columns = {"Open Time", "Id", "Label", "Comment", "Instrument", "Side", "Amount", "Original Amount", "Open Price", "Stop Loss", "Take Profit", "Profit (Pips)", "Profit Currency", "Profit in USD", "Commission", "Commission USD"};
     static String[] columns = {"Id", "Instrument", "Side", "Amount", "Open Price", "Stop Loss", "Take Profit"};
